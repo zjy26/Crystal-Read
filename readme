@@ -1,0 +1,33 @@
+// java
+class Hello {
+    public Hello() {
+
+    }
+
+    public static void say() {
+        
+    }
+}
+
+class Main() {
+    public static void main(String[] args) {
+        Hello.say();
+    } 
+}
+
+// js
+class Hello {
+    constroctor() {
+
+    }
+
+    static say() {
+
+    }
+}
+
+var h = new Hello();
+h.say();
+
+google: metrial design 设计理论
+redux: 

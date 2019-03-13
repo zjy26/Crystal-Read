@@ -1,0 +1,29 @@
+.ant-btn-primary {
+    background-color: #b00606;
+    border-color: #b00606;
+}
+.ant-btn-primary:hover, .ant-btn-primary:focus {
+    background-color: #b00606;
+    border-color: #b00606;
+}
+
+.ant-input {
+  outline: none;
+  border-radius: 18px;
+}
+.ant-input:hover, .ant-input:focus {
+  border-color: #d8d8d8;
+  border: 1px solid #d8d8d8;
+}
+
+.ant-btn {
+  border-radius: 18px;
+}
+
+.date-select {
+  height: 50px;
+}
+
+.top {
+  padding-top: 100px;
+}

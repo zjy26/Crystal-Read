@@ -1,0 +1,42 @@
+#header {
+    position: absolute;
+    display: block;
+    height: 400px;
+}
+
+#header #headline {
+    float: left;
+    margin: 150px 0 0 95px;
+    font-size: 40px;
+    color: rgb(87, 32, 10);
+}
+
+.title {
+    padding: 8px;
+    font-size: 40px;
+    color: rgb(87, 32, 10);
+    float: left;
+    padding-left: 200px;
+}
+.input {
+    width: 130px;
+    margin: 0 4px 6px 0;
+}
+.login {
+    float: right;
+    padding-right: 200px;
+    display: block;
+    margin-top: 10px;
+    position: relative;
+}
+.password {
+    float: right;
+    padding-right: 0;  
+}
+
+.checkbox {
+    padding-right: 68px;
+}
+.a {
+    padding-right: 75px;
+}
