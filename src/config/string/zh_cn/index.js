@@ -1,7 +1,7 @@
 'use strict';
 
 export const String_zh_cn = {
-  Title: '知了阅读',
+  Title: '水晶文学社',
   Topic: '读书就是回家',
   Test: '加减计数器',
   Login: '登录',

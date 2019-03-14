@@ -1,8 +1,3 @@
-/**
- * Creator: Tang Xiaoji
- * Time: 2017-11-15
- */
-
 'use strict';
 
 import { String_zh_cn } from './zh_cn';

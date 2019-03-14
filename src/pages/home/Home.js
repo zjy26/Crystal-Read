@@ -22,9 +22,7 @@ import Background from '../../../image/background.png';
 import Top250 from '../books/Top250';
 
 const bg = {
-  width: "100%",
-  height: "400px",
-  background: `url(${Background})`
+  background: `url(${Background}) 100% 100%`
 };
 
 class Home extends React.Component {
@@ -42,19 +40,18 @@ class Home extends React.Component {
         <h1 className="title"> {String.Title}</h1>
         <div className='login'>
           <div>
-            <Input className="input" placeholder={String.Placeholder.UserName}
+            {/* <Input className="input" placeholder={String.Placeholder.UserName}
                    onChange={(e) => this.setState({name: e.target.value})}/>
             <Input className="input" type="password" placeholder={String.Placeholder.Password}
-                   onChange={(e) => this.setState({pass: e.target.value})}/>
-            <Button onClick={this.onLogin}>{String.Login}</Button>
+                   onChange={(e) => this.setState({pass: e.target.value})}/> */}
+            {/* <Button onClick={this.onLogin}>{String.Login}</Button> */}
+            <Button><Link to="/Login">{String.Login}</Link></Button>
+            <Button><Link to="/register">{String.Register}</Link></Button>
           </div>
-          <div className='password'>
+          {/* <div className='password'>
             <Checkbox className="checkbox">{String.SavePassword}</Checkbox>
             <a className='a'>{String.ForgetPassword}</a>
-            <Button>
-              <Link to="/register">{String.Register}</Link>
-            </Button>
-          </div>
+          </div> */}
         </div>
         <div id="headline">{String.Topic}</div>
 
